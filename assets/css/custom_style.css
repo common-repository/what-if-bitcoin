@@ -1,0 +1,95 @@
+.whatif_form { 
+	width:auto !important;
+	display:block; 
+	padding:20px 20px; 
+	position: relative;
+}
+.whatif_form .whatif_form_row { 
+	width:100% !important; 
+	margin-bottom:10px;
+	text-align:center
+}
+.whatif_form .whatif_form_row_btn {
+	width:100% !important; 
+	margin-top:25px;
+	text-align:center
+}
+.whatif_form .whatif_form_row .form-control {
+	padding:10px 15px !important;
+	height:auto !important;
+	background-color: transparent; 
+	border-top: 0; 
+	border-right: 0; 
+	border-left: 0; 
+	border-radius: 0;
+  } [type="text"] {
+  	  color: #111;
+  	} [type="password"] {
+  		color: #111;
+  		} 
+ .whatif_form .whatif_form_row input[type="text"] {
+ 	width:100px;    
+ 	display: initial;
+	
+ } 
+ .whatif_form .whatif_form_row select { 
+ 	width:30% !important;
+ 	min-width: auto !important;
+ 	display:inline-block;
+ 	margin: 10px 5px;
+ } 
+ .whatif_form .whatif_form_row #currency_select { 
+ 	width:18% !important;
+ } 
+ .whatif_form .whatif_form_row_btn .btn--form {  
+ 	padding: .5rem 2.5rem !important;
+ 	padding:10px 15px !important; /*font-size: .95rem !important;*/  
+ 	font-weight: 600 !important;
+ 	text-transform: uppercase;
+ 	text-decoration:none;
+ 	color: #fff;
+ 	background: #111;
+ }
+ .whatif_form .whatif_form_row_btn small {
+ 	font-size:12px; 
+ 	padding-top:10px;
+ 	display: block;
+ }
+ .whatif_form .whatif_form_row_btn small a {
+ 	text-decoration:underline !important; 
+ }
+ .whatif_form_result {
+ 	text-align:center; 
+ 	margin-top:20px;
+ 	margin-bottom:20px;
+ 	padding:20px 35px;
+ 	display:none;
+ }
+ .whatif_form_result .result_text { 
+ 	font-size:18px;
+ 	border:2px solid;
+ 	padding:15px;
+ } 
+ .whatif_form .whatif_form_row_text .tech_disp {
+ 	position: absolute;
+ 	right: 0;
+ 	bottom: 0;
+ 	background-color: #000;
+ 	padding: 5px;
+ }
+ .whatif_form .whatif_form_row_text .tech_disp a {
+ 	color: #fff;
+    text-decoration: none; 
+    font-size: 12px; 
+    font-weight: bold;
+ }
+ @media only screen and (max-width: 760px) { 
+ 	.whatif_form .whatif_form_row #currency_select { 
+ 		width:25%;
+ 		} 
+ } 
+ @media only screen and (max-width: 380px) { 
+ 	.whatif_form .whatif_form_row #currency_select { 
+ 		width:30%;
+ 		} 
+ }

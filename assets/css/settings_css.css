@@ -1,0 +1,25 @@
+.wp-heading-inline img { vertical-align:middle !important;}
+.whatif_admin { width:100%; display:block;}
+.whatif_admin .whatif_admin_row {
+	width:48%; float:left;	
+}
+.whatif_admin .whatif_admin_row .whatif_how_to_use {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    /*margin-right: 28px;*/	
+}
+.whatif_admin .whatif_admin_row_last { background:#fff; padding:20px;}
+.whatif_admin .whatif_admin_row .form-table th,.whatif_admin .whatif_admin_row .form-table td { padding-top:10px; padding-bottom:10px;}
+.whatif_short{
+	background-color: #fff;
+    color: #f26a57;
+    padding: 5px;
+    font-size: 16px;
+}
+@media only screen and (max-width: 760px) { 
+.whatif_admin .whatif_admin_row {
+	width:100%; float:none;	 margin-bottom:20px;
+}
+}
+
